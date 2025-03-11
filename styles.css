@@ -1,13 +1,16 @@
 body{
-    background-color:black;
+    box-sizing: border-box;
+    background:linear-gradient(black, black,black,rgb(41, 0, 41),rgb(68, 0, 68), purple );
+    background-attachment: fixed;
+    background-size: 100% 100%;
     color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     animation: fadeIn 1s; 
+    
 }
 
 h1{
     font-size:80px;
-    margin-bottom:0px;
 }
 
 @keyframes fadeIn {
@@ -25,11 +28,36 @@ h1{
     display:flex;
     justify-content: center;
     gap:30px;
+    align-items: center;
 }
 
 p{
     text-align: start;
-    margin-left:10px;
+    margin:60px;    
 }
 
+button{
+    background-color:black;
+    color:white;
+    border:2px white solid;
+    border-radius:50px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all .2s ease-in-out;
 
+}
+
+button:hover{
+    transform:scale(1.2);
+}
+
+.top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:200px;
+    margin-right:50px;
+}
