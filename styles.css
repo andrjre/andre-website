@@ -2,11 +2,9 @@ body{
     box-sizing: border-box;
     background:linear-gradient(black, black,black,rgb(41, 0, 41),rgb(68, 0, 68), purple );
     background-attachment: fixed;
-    background-size: 100% 100%;
     color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     animation: fadeIn 1s; 
-    
 }
 
 h1{
@@ -47,7 +45,6 @@ button{
     padding:10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: all .2s ease-in-out;
-
 }
 
 button:hover{
@@ -56,10 +53,10 @@ button:hover{
 
 .top{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-left:200px;
-    margin-right:50px;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 a{
