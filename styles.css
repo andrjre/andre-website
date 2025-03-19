@@ -16,8 +16,6 @@ h1{
     100% { opacity: 1; }
   }
   
-  
-
 .header{
     text-align:center;
 }
@@ -31,7 +29,6 @@ h1{
 
 p{
     text-align: start;
-    margin:60px;    
 }
 
 button{
@@ -62,4 +59,28 @@ button:hover{
 a{
     text-decoration:none;
     color:white;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding:60px;
+    animation: fadeIn 3s;
+
+}
+
+.intermediate{
+    color:orange
+}
+
+.beginner{
+    color:greenyellow;
 }
