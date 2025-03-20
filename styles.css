@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    background:linear-gradient(black, black,black,rgb(41, 0, 41),rgb(68, 0, 68), purple );
+    background:linear-gradient(black, black,black,rgb(8, 0, 8),rgb(19, 0, 19), rgb(39, 0, 39) );
     background-attachment: fixed;
     color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -83,4 +83,31 @@ ul{
 
 .beginner{
     color:greenyellow;
+}
+
+.box-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top:80px;
+    width:900px;
+    height:200px;
+    display: flex;
+    padding:50px;
+    padding-top:30px;
+    border-radius: 10px;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.github{
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    border-radius:10px
 }
