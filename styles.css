@@ -109,5 +109,35 @@ ul{
     border: 1px solid white;
     width:100px;
     height:100px;
-    border-radius:10px
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html{
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    border-radius:10px;
+}
+
+.css{
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.js{
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
