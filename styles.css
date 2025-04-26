@@ -9,6 +9,7 @@ body{
 
 h1{
     font-size:80px;
+    margin-bottom: 10px;
 }
 
 @keyframes fadeIn {
@@ -149,4 +150,12 @@ ul{
 .icon:hover{
     background-color: white;
     transform: scale(1.2);
+}
+
+#tinyIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+    gap:10px
 }
