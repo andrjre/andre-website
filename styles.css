@@ -105,7 +105,7 @@ ul{
     justify-content: space-around;
 }
 
-.github{
+#github{
     border: 1px solid white;
     width:100px;
     height:100px;
@@ -115,14 +115,14 @@ ul{
     align-items: center;
 }
 
-.html{
+#html{
     border: 1px solid white;
     width:100px;
     height:100px;
     border-radius:10px;
 }
 
-.css{
+#css{
     border: 1px solid white;
     width:100px;
     height:100px;
@@ -132,7 +132,7 @@ ul{
     align-items: center;
 }
 
-.js{
+#js{
     border: 1px solid white;
     width:100px;
     height:100px;
@@ -140,4 +140,13 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon{
+    transition: all ease-in-out .2s;
+}
+
+.icon:hover{
+    background-color: white;
+    transform: scale(1.2);
 }
