@@ -11,5 +11,5 @@ splitTitle[0].onclick = function(){
 }
 
 title.onclick = function(){
-    console.log("gello")
+    console.log("gello")    
 }
