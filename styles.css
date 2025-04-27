@@ -47,6 +47,8 @@ button{
 
 button:hover{
     transform:scale(1.2);
+    cursor: pointer;
+    background-color: white;
 }
 
 .top{
@@ -61,6 +63,8 @@ a{
     text-decoration:none;
     color:white;
 }
+
+
 
 ul{
     display: flex;
@@ -106,7 +110,7 @@ ul{
     justify-content: space-around;
 }
 
-#github{
+#git{
     border: 1px solid white;
     width:100px;
     height:100px;

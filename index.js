@@ -13,3 +13,9 @@ splitTitle[0].onclick = function(){
 title.onclick = function(){
     console.log("gello")    
 }
+
+let button = document.querySelector(".button")
+let git = document.getElementById("git")
+
+
+git.addEventListener("mouseover", function(){console.log("gello");})
