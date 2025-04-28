@@ -6,13 +6,10 @@ let splitTitle = []
 splitTitle = titleText.split("")
 console.log(splitTitle)
 
-splitTitle[0].onclick = function(){
+splitTitle[1].onclick = function(){
     console.log("helloooo")
 }
 
-title.onclick = function(){
-    console.log("gello")    
-}
 
 let button = document.querySelector(".button")
 let git = document.getElementById("git")
