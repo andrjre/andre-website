@@ -1,7 +1,7 @@
 
 
 body{
-    background:linear-gradient(black, black,black,rgb(41, 0, 41),rgb(68, 0, 68), purple );
+    background:linear-gradient(black, black,black,rgb(8, 0, 8),rgb(19, 0, 19), rgb(39, 0, 39) );
     background-attachment: fixed;
     color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,6 +30,7 @@ button{
     padding:10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 .top{
@@ -40,11 +41,38 @@ button{
     margin-right:20px;
 }
 
-a{
+.homeA{
     text-decoration: none;
     color:white;
 }
 
 button:hover{
     transform: scale(1.2);
+}
+
+#links{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left:50px;
+    gap:50px;
+}
+
+.linkStyle{
+    margin:0;
+    transition:all ease-in-out .2s;
+    width: min-content;
+}
+
+.linkStyle:hover{
+    transform: scale(1.2);
+}
+
+#linkStyleA{
+    transition: all ease-in-out .2s;
+    color:blue
+}
+
+#linkStyleA:hover{
+    color:white
 }
