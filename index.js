@@ -2,12 +2,9 @@
 let title = document.getElementById("andreTitle");
 let titleText = document.getElementById("andreTitle").textContent;
 
-let splitTitle = []
-splitTitle = titleText.split("")
-console.log(splitTitle)
 
-splitTitle[1].onclick = function(){
-    console.log("helloooo")
+title.onclick = function(){
+    title.classList.add("rainbow")
 }
 
 

@@ -49,6 +49,7 @@ button:hover{
     transform:scale(1.2);
     cursor: pointer;
     background-color: white;
+    color:black
 }
 
 .top{
@@ -64,15 +65,15 @@ a{
     color:white;
 }
 
-
+a:hover{
+    color:black
+}
 
 ul{
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-
-
 
 .content{
     display: flex;
@@ -182,4 +183,35 @@ ul{
 .iconBackground:hover{
     background-color: white;
     transform: scale(1.2);
+}
+
+#andreTitle{
+    transition:all ease-in-out .5s
+}
+
+#andreTitle:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.rainbow{
+    animation: colorRotate 5s linear 0s infinite
+}
+
+@keyframes colorRotate {
+    from {
+        color:white
+    }
+    25%{
+        color: pink;
+    }
+    50%{
+        color:purple
+    }
+    75%{
+        color:pink
+    }
+    100%{
+        color:white
+    }
 }
