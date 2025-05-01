@@ -76,3 +76,37 @@ button:hover{
 #linkStyleA:hover{
     color:white
 }
+
+#goodreads{
+    display: flex;
+    align-items: center;
+    gap:20px
+
+}
+
+#goodreadsImg{
+    width:100px;
+    height:100px;
+}
+
+#spotify{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+#spotifyImg{
+    width: 100px;
+    height:100px;
+}
+
+#letterboxd{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+#letterboxdImg{
+    width: 100px;
+    height:100px;
+}
