@@ -246,3 +246,9 @@ input{
     align-items: center;
     height:40px
 }
+
+#confirm{
+    width:200px;
+    height:200px;
+    border: solid 2px black;
+}
